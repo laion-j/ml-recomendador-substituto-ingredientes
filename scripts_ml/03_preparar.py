@@ -1,4 +1,4 @@
-"""Limpa os pares minerados e define o vocabulário (300 ingredientes mais frequentes).
+"""Limpa os pares minerados e define o vocabulário (os 1000 ingredientes mais frequentes, sem o ruído de extração).
 
 Uso: .venv/bin/python scripts_ml/03_preparar.py
 Entrada: data/pares.csv
@@ -13,7 +13,18 @@ import pandas as pd
 RAIZ = Path(__file__).resolve().parent.parent
 GATILHO = re.compile(r"instead of|in place of|rather than|substitut|subbed|swapped|replaced", re.I)
 MAX_POR_PAR = 20   # um par como sugar->splenda não pode dominar o treino
-TOP_VOCAB = 300
+TOP_VOCAB = 1000
+# Palavras que a mineração pega como "ingrediente" mas não são (verbos, partes de frase, formatos, adjetivos soltos).
+# Ficam fora do ranking do vocabulário, senão ocupam vaga e precisam de rótulo na taxonomia.
+RUIDO = {
+    "hand", "garden", "except", "end", "dog", "taste", "well", "first", "maybe", "sometime", "tel", "leave", "halve",
+    "saute", "bottom", "freezer", "equal", "tender", "base", "piece", "round", "black", "yellow", "red", "green",
+    "brown", "sweet", "heart", "shell", "pan", "cube", "chunk", "granule", "flake", "baking", "spray", "puree",
+    "filling", "crust", "topping", "garnish", "glaze", "batter", "concentrate", "liquid", "essence", "roast",
+    "shoulder", "rind", "pod", "toast", "roll", "savory", "purpose", "chily", "veggy", "meat", "leg", "dish", "thanksgiving", "foil", "bark", "crumb", "mix", "mixture",
+    "thicken", "tidbit", "m m's",
+    "over rice", "all milk", "all broth", "all butter", "all splenda", "all chicken broth", "mixed veggy",
+}
 
 
 def hipotetica(review: str) -> bool:
@@ -47,7 +58,8 @@ def main() -> None:
           f"{df[['original','substituto']].drop_duplicates().shape[0]} pares únicos")
 
     # Vocabulário: soma de ocorrências como original OU substituto
-    freq = pd.concat([df["original"], df["substituto"]]).value_counts().head(TOP_VOCAB)
+    freq = pd.concat([df["original"], df["substituto"]]).value_counts()
+    freq = freq[~freq.index.isin(RUIDO)].head(TOP_VOCAB)
     freq.rename_axis("ingrediente").reset_index(name="ocorrencias").to_csv(RAIZ / "data" / "vocabulario.csv", index=False)
     print(f"vocabulário: {len(freq)} ingredientes (menor frequência: {freq.iloc[-1]})")
 

@@ -1,0 +1,15 @@
+# Não há Dockerfile hoje (o compose só usa a imagem do pgvector); fica pronto para quando houver build.
+.git
+.env
+.env.*
+!.env.example
+data/
+.venv*/
+__pycache__/
+.pytest_cache/
+node_modules/
+frontend/dist/
+*.h5
+*.keras
+*.pkl
+*.log

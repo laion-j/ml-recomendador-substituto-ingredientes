@@ -6,7 +6,7 @@ from psycopg_pool import AsyncConnectionPool
 async def listar_receitas(pool: AsyncConnectionPool, limite: int = 50) -> list[dict]:
     async with pool.connection() as conn:
         cur = await conn.execute(
-            "SELECT id, titulo, ingredientes FROM receitas ORDER BY id LIMIT %s", (limite,)
+            "SELECT id, titulo, ingredientes FROM receitas WHERE id > 0 ORDER BY id LIMIT %s", (limite,)
         )
         return [{"id": r[0], "titulo": r[1], "ingredientes": r[2]} for r in await cur.fetchall()]
 
@@ -15,8 +15,8 @@ async def embedding_do_ingrediente(pool: AsyncConnectionPool, nome: str) -> np.n
     """Embedding já gravado no banco, ou None se o nome não existe (aí o chamador embeda o texto)."""
     async with pool.connection() as conn:
         cur = await conn.execute(
-            "SELECT embedding FROM ingredientes WHERE lower(nome) = lower(%s) AND embedding IS NOT NULL",
-            (nome,),
+            "SELECT embedding FROM ingredientes WHERE (lower(nome) = lower(%s) OR lower(nome_en) = lower(%s)) AND embedding IS NOT NULL",   # aceita PT ou EN
+            (nome, nome),
         )
         row = await cur.fetchone()
         return row[0].to_numpy() if row else None  # Vector -> ndarray
@@ -38,7 +38,7 @@ async def buscar_candidatos(
             SELECT nome, categoria, funcoes, sabores, embedding <=> %(v)s AS distancia, embedding
             FROM ingredientes
             WHERE embedding IS NOT NULL
-              AND lower(nome) <> lower(%(excluir)s)  -- o próprio ingrediente não é substituto de si
+              AND lower(nome) <> lower(%(excluir)s) AND lower(nome_en) <> lower(%(excluir)s)  -- o próprio ingrediente (PT ou EN) não é substituto de si
             ORDER BY embedding <=> %(v)s              -- mesmo operador do índice HNSW
             LIMIT %(k)s
             """,

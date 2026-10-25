@@ -1,15 +1,5 @@
 """Testes contra o Postgres real (docker compose up -d) e o modelo real."""
 import pytest
-from fastapi.testclient import TestClient
-
-from app.main import app
-
-
-@pytest.fixture(scope="module")
-def client():
-    # `with` dispara o lifespan (carrega modelo e abre o pool).
-    with TestClient(app) as c:
-        yield c
 
 
 def buscar(client, **kw):

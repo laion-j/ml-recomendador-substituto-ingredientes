@@ -12,8 +12,9 @@ spec = importlib.util.spec_from_file_location("emb", RAIZ / "scripts_ml" / "04_e
 emb = importlib.util.module_from_spec(spec); spec.loader.exec_module(emb)
 
 K = 30
-VIZ = "SELECT nome, embedding <=> (SELECT embedding FROM ingredientes WHERE nome=%s) AS dist " \
-      "FROM ingredientes WHERE nome <> %s ORDER BY embedding <=> (SELECT embedding FROM ingredientes WHERE nome=%s) LIMIT %s"
+# a busca é pelo nome EN (a chave estável); o nome mostrado é o PT
+VIZ = "SELECT nome, embedding <=> (SELECT embedding FROM ingredientes WHERE nome_en=%s) AS dist " \
+      "FROM ingredientes WHERE nome_en <> %s ORDER BY embedding <=> (SELECT embedding FROM ingredientes WHERE nome_en=%s) LIMIT %s"
 
 with emb.conectar() as con:
     n, nulos = con.execute("SELECT count(*), count(*) FILTER (WHERE embedding IS NULL) FROM ingredientes").fetchone()
@@ -27,7 +28,7 @@ with emb.conectar() as con:
 
     # recall@30 por PAR ÚNICO (DISTINCT: o banco tem uma linha por ocorrência): para cada par de validação, o substituto está entre os 30 vizinhos do original?
     # A consulta é feita no banco (índice HNSW), como será em produção.
-    pares = con.execute("SELECT DISTINCT o.nome, s.nome FROM pares_substituicao p JOIN ingredientes o ON o.id=p.original_id "
+    pares = con.execute("SELECT DISTINCT o.nome_en, s.nome FROM pares_substituicao p JOIN ingredientes o ON o.id=p.original_id "
                         "JOIN ingredientes s ON s.id=p.substituto_id WHERE p.split='validacao'").fetchall()
     cache, acertos = {}, 0
     for o, s in pares:

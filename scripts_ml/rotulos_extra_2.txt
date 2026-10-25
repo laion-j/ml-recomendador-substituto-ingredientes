@@ -1,0 +1,331 @@
+bow tie pasta|massa gravatinha|mas|E|
+orange rind|casca de laranja|tem|S|a
+treacle|melado escuro (treacle)|ado|AU|dm
+berry|frutas vermelhas|fru|SA|da
+bragg|Bragg|mol|S|us
+cornflake|cornflake|gra|E|
+purpose flour|farinha multiuso (purpose)|far|E|
+prawn|camarão grande|pro|E|
+soy|soja|leg|E|
+romaine lettuce|alface-romana (romaine lettuce)|veg|E|
+tapioca|tapioca|far|T|
+honey mustard|mostarda e mel|mol|SA|dap
+saffron|açafrão|tem|SR|m
+bison|bisão|pro|E|u
+sherry wine|vinho xerez|alc|SA|d
+marsala|marsala|alc|SA|d
+marsala wine|vinho marsala|alc|SA|d
+rotel tomato|tomate Rotel|veg|SU|up
+dark rum|rum escuro|alc|S|d
+salt pork|toucinho salgado|pro|GS|gs
+basmati rice|arroz basmati|gra|E|
+lobster|lagosta|pro|E|
+iceberg lettuce|alface-americana|veg|E|
+corn meal|fubá (corn meal)|far|E|
+chili garlic sauce|molho de pimenta e alho|mol|S|pu
+granulated garlic|alho granulado|tem|S|u
+star anise|anis-estrelado|tem|S|dh
+parmesan|parmesão|lat|SE|su
+brocolli|brócolis (brocolli)|veg|E|m
+alfalfa sprout|broto de alfafa|veg|E|
+chicken base|base de caldo de galinha|liq|S|su
+vanilla wafer|biscoito de baunilha|mas|E|d
+chili flake|flocos de pimenta|tem|S|p
+avocado|abacate|fru|GU|cg
+vanilla ice cream|sorvete de baunilha|lat|AG|dc
+adobo sauce|molho adobo|mol|S|pa
+cheddar cheese soup|creme de queijo cheddar|mol|SUT|cs
+chicken wing|asa de frango|pro|GE|u
+artichoke bottom|fundo de alcachofra|veg|E|
+all purpose flour|farinha de trigo (all purpose)|far|E|
+mashed banana|banana amassada|fru|ULA|d
+coconut extract|extrato de coco|tem|S|d
+coconut flour|farinha de coco|far|E|
+tater tot|bolinho de batata|veg|E|
+lemonade|limonada|liq|AC|da
+icing sugar|açúcar impalpável|ado|AE|d
+purple onion|cebola roxa (purple onion)|veg|S|
+mixed berry|frutas vermelhas mistas|fru|SA|da
+cornflake crumb|farelo de cornflake|gra|E|
+pam spray|spray Pam|gor|G|
+panko crumb|farelo panko|mas|E|
+raspberry jam|geleia de framboesa|ado|AU|d
+rice flour|farinha de arroz|far|ET|
+chicken boullion|caldo de galinha (boullion)|liq|S|su
+rhubarb|ruibarbo|veg|SC|a
+fructose|frutose|ado|A|d
+provolone cheese|queijo provolone|lat|GSE|c
+hoisin sauce|molho hoisin|mol|SA|ud
+tempeh|tempeh|pro|E|u
+soy margarine|margarina de soja|gor|GU|g
+summer squash|abobrinha de verão|veg|E|
+sambal oelek|sambal oelek|mol|S|p
+chile|pimenta chile|veg|S|p
+crescent roll|massa de croissant em lata|mas|EG|g
+carob powder|alfarroba em pó|tem|SR|dm
+capsicum|pimentão (capsicum)|veg|SU|d
+curry|curry|tem|SR|p
+filet|filé (filet)|pro|E|
+leftover chicken|sobra de frango|pro|E|u
+liqueur|licor|alc|SA|d
+sea scallop|vieira do mar|pro|E|
+fennel seed|semente de erva-doce|tem|S|h
+smart balance spread|creme vegetal Smart Balance|gor|GU|g
+pineapple tidbit|pedaços pequenos de abacaxi|fru|SAU|da
+marshmallow|marshmallow|ado|AE|d
+hash brown|batata rösti|veg|E|
+marg|margarina (marg)|gor|GU|g
+pancake syrup|calda para panqueca|ado|AU|d
+millet|painço|gra|E|
+peach preserve|geleia de pêssego|ado|AU|d
+frito|salgadinho Fritos|mas|E|s
+coconut sugar|açúcar de coco|ado|A|d
+galangal|galanga|tem|S|p
+masa harina|farinha de masa|far|E|
+pimiento|pimiento|veg|S|d
+gherkin|pepino em conserva|veg|SC|as
+chicken drumstick|coxinha da asa de frango|pro|E|u
+green pea|ervilha verde|leg|E|d
+guar gum|goma guar|far|T|
+bran|farelo|gra|E|
+mustard green|folha de mostarda|veg|E|mp
+mussel|mexilhão|pro|E|
+earth balance margarine|margarina Earth Balance|gor|GU|g
+vanilla essence|essência de baunilha|tem|S|d
+halibut|linguado-gigante|pro|E|
+okra|quiabo|veg|ET|
+becel|Becel|gor|GU|g
+apple juice concentrate|concentrado de suco de maçã|ado|AU|d
+anise seed|semente de anis|tem|S|dh
+habanero|habanero|veg|S|p
+brazil nut|castanha-do-pará|cas|GSE|g
+becel margarine|margarina Becel|gor|GU|g
+cherry pie filling|recheio de torta de cereja|fru|AU|da
+almond meal|farinha de amêndoa|far|EG|g
+whipped topping|chantilly industrializado|lat|GE|cd
+white mushroom|cogumelo branco|veg|E|u
+white rum|rum branco|alc|S|
+anchovy paste|pasta de anchova|mol|S|us
+chili oil|óleo de pimenta|gor|GS|p
+celery soup|creme de aipo|mol|SUT|
+italian parsley|salsinha italiana|erv|S|h
+mustard seed|semente de mostarda|tem|S|p
+haddock|hadoque|pro|E|
+jicama|jicama|veg|E|d
+lime zest|raspas de limão (lime zest)|tem|S|a
+yellow mustard|mostarda amarela|mol|SC|pa
+yellow pepper|pimentão amarelo|veg|SU|d
+cardamon|cardamomo (cardamon)|tem|S|
+black walnut|noz-preta|cas|GSE|g
+splenda granular|Splenda granulado|ado|A|d
+baby corn|minimilho|veg|E|d
+garlic oil|óleo de alho|gor|GS|u
+bulgur|trigo para quibe|gra|E|
+ciabatta|ciabatta|mas|E|
+salted peanut|amendoim salgado|cas|GS|gs
+pico de gallo|pico de gallo|mol|SU|ap
+sharp cheddar|cheddar forte|lat|GS|cs
+cooking wine|vinho culinário|alc|S|s
+green chile|pimenta verde (green chile)|veg|S|p
+coconut rum|rum de coco|alc|S|d
+strawberry jam|geleia de morango|ado|AU|d
+cointreau|Cointreau|alc|S|d
+steak seasoning|tempero para carne|tem|S|s
+barbecue sauce|molho barbecue (barbecue sauce)|mol|SA|dau
+pressed garlic|alho prensado|veg|S|pu
+cranberry juice|suco de cranberry|liq|AC|da
+spam|Spam|pro|GS|s
+cinnamon chip|gotas de canela|ado|AS|d
+matzo meal|farinha de matzá|far|E|
+calvado|calvados|alc|S|d
+espresso|espresso|liq|S|m
+lemon peel|casca de limão|tem|S|a
+turkey pepperoni|pepperoni de peru|pro|S|sp
+soybean|grão de soja|leg|E|
+sweet chocolate chip|gotas de chocolate doce|ado|AS|d
+dark chocolate|chocolate amargo|ado|SR|m
+texas toast|pão texas toast|mas|E|
+creole mustard|mostarda creole|mol|SC|pa
+croissant|croissant|mas|EG|g
+snap pea|ervilha-torta (snap pea)|veg|E|d
+shell pasta|massa conchinha|mas|E|
+simple syrup|calda simples|ado|AU|d
+sirloin steak|bife de alcatra|pro|E|u
+chick pea|grão-de-bico (chick pea)|leg|E|
+curry leave|folha de curry|erv|S|h
+soured milk|leite azedado|lat|U|ca
+monterey jack cheese|queijo monterey jack|lat|GE|c
+vanilla soy milk|leite de soja com baunilha|liq|U|d
+sun tomato|tomate seco|veg|S|ua
+lemongrass|capim-limão|erv|S|ah
+salted butter|manteiga com sal|lat|GSU|cgs
+vegenaise|Vegenaise|mol|GL|cg
+dairy creamer|creme em pó para café|lat|GU|cd
+bay leaf|folha de louro|erv|S|h
+bay leave|louro (bay leave)|erv|S|h
+beef base|base de caldo de carne|liq|S|su
+sauerkraut|chucrute|veg|SC|a
+salad dressing|molho de salada|mol|SC|a
+mild italian sausage|linguiça italiana suave|pro|GS|s
+pork rib|costela de porco|pro|GE|u
+dark beer|cerveja escura|alc|S|m
+dark brown sugar|açúcar mascavo escuro|ado|AU|dm
+gnocchi|nhoque|mas|E|
+russet potato|batata russet|veg|E|
+hominy|canjica de milho|gra|E|
+ice cream|sorvete|lat|AG|dc
+flat leaf parsley|salsinha lisa|erv|S|h
+dog bun|pão de cachorro-quente|mas|E|
+dream whip|Dream Whip|lat|GE|cd
+dry red wine|vinho tinto seco|alc|SC|a
+thigh meat|carne de sobrecoxa|pro|E|u
+pepper sauce|molho de pimenta|mol|S|pa
+rose water|água de rosas|tem|S|d
+yogurt cheese|queijo de iogurte|lat|GE|ca
+marinara|marinara|mol|SU|ua
+red curry paste|pasta de curry vermelho|mol|S|p
+chinese rice wine|vinho de arroz chinês|alc|S|d
+marinara sauce|molho marinara|mol|SU|ua
+bragg's liquid amino|aminoácidos líquidos Bragg|mol|S|us
+crushed red pepper|pimenta vermelha esmagada|tem|S|p
+raspberry vinegar|vinagre de framboesa|aci|C|ad
+evaporated skim milk|leite evaporado desnatado|lat|U|c
+pumpkin puree|purê de abóbora|veg|UE|d
+quark|quark|lat|GU|ca
+fish stock|fundo de peixe|liq|S|u
+grenadine|grenadine|ado|AR|d
+milk chocolate|chocolate ao leite|ado|SR|dc
+panko breadcrumb|farinha panko (breadcrumb)|mas|E|
+cheese tortellini|tortelini de queijo|mas|E|
+pretzel|pretzel|mas|E|s
+fruit cocktail|salada de frutas em calda|fru|AU|d
+wheat tortilla|tortilha integral|mas|E|
+potato chip|batata chips|veg|E|s
+poppy seed|semente de papoula|cas|GS|g
+marmite|Marmite|mol|S|us
+mascarpone|mascarpone|lat|GU|cg
+pita bread|pão sírio|mas|E|
+plum|ameixa|fru|S|da
+pepsi|Pepsi|liq|SA|d
+special k|cereal Special K|gra|E|
+seasoned breadcrumb|farinha de rosca temperada|mas|ES|s
+wine vinegar|vinagre de vinho|aci|C|a
+champagne vinegar|vinagre de champanhe|aci|C|a
+yellow cake mix|mistura para bolo amarelo|far|EF|d
+wasabi|wasabi|tem|S|p
+cheez whiz|Cheez Whiz|lat|GS|cs
+vegetable juice|suco de legumes|liq|SU|u
+turkey stock|fundo de peru|liq|S|u
+cherry juice|suco de cereja|liq|AU|da
+angel food cake|bolo pão de ló|mas|E|d
+favorite bbq sauce|molho barbecue favorito|mol|SA|dau
+watermelon|melancia|fru|U|d
+white sauce|molho branco|mol|GUT|c
+anchovy|anchova|pro|S|us
+white chocolate chip|gotas de chocolate branco|ado|AS|dc
+chinese cabbage|repolho chinês|veg|E|
+peppermint oil|óleo de hortelã-pimenta|tem|S|h
+matzoh meal|farinha de matzá (matzoh)|far|E|
+plum sauce|molho de ameixa|mol|SA|da
+country crock|Country Crock|gor|GU|g
+chia seed|semente de chia|cas|ET|
+chervil|cerefólio|erv|S|h
+yellow summer squash|abobrinha amarela de verão|veg|E|
+cayenne powder|caiena em pó|tem|S|p
+chuck roast|acém assado|pro|E|u
+brussels sprout|couve-de-bruxelas|veg|E|m
+romano|romano|lat|SE|s
+pumpkin spice|tempero para abóbora|tem|S|d
+ham bone|osso de presunto|pro|S|su
+bologna|mortadela|pro|S|s
+pork roast|assado de porco|pro|E|u
+pomegranate seed|semente de romã|fru|SA|da
+powdered milk|leite em pó|lat|E|c
+stove top stuffing|recheio Stove Top|mas|ES|s
+italian bread crumb|farinha de rosca italiana|mas|ES|h
+gelatin|gelatina|out|ET|
+bay scallop|vieira pequena|pro|E|
+eggnog|eggnog|lat|GU|cd
+ciabatta roll|pãozinho ciabatta|mas|E|
+clementine|clementina|fru|S|da
+unsweetened soy milk|leite de soja sem açúcar|liq|U|
+tomatillo|tomatillo|veg|SC|a
+flaxseed|semente de linhaça|cas|ET|
+sour cherry|cereja ácida|fru|SC|a
+wheat rotini|rotini integral|mas|E|
+crasin|cranberry seca (crasin)|fru|AS|da
+italian breadcrumb|farinha de rosca italiana (breadcrumb)|mas|ES|h
+mint leave|folha de hortelã|erv|S|h
+mascarpone cheese|queijo mascarpone|lat|GU|cg
+pure almond extract|extrato puro de amêndoa|tem|S|d
+fettucine|fettuccine (fettucine)|mas|E|
+bowtie pasta|massa gravatinha (bowtie)|mas|E|
+sweet relish|relish doce|mol|SC|da
+tarragon vinegar|vinagre de estragão|aci|C|ah
+tangerine|tangerina|fru|S|da
+celery flake|flocos de aipo|tem|S|h
+kiwi|kiwi|fru|S|da
+pea pod|vagem de ervilha|veg|E|d
+passata|passata de tomate|mol|SUT|ua
+peel|casca cítrica|tem|S|a
+turkey thigh|sobrecoxa de peru|pro|E|u
+pam cooking spray|spray de cozinha Pam|gor|G|
+romano cheese|queijo romano|lat|SE|s
+rocket|rúcula (rocket)|veg|S|mp
+greek seasoning|tempero grego|tem|S|h
+red chily|pimenta vermelha|veg|S|p
+hydrogenated margarine|margarina hidrogenada|gor|GU|g
+buckwheat|trigo-sarraceno|gra|E|
+garlic chive|cebolinha-chinesa|erv|S|u
+leg quarter|coxa e sobrecoxa|pro|E|u
+wondra|farinha Wondra|far|T|
+arrowroot starch|araruta em amido|far|T|
+chipotle pepper|pimenta chipotle|veg|S|p
+chilli powder|chili em pó (chilli)|tem|S|p
+ziti|ziti|mas|E|
+corn chip|chips de milho|mas|E|s
+orange oil|óleo de laranja|tem|S|a
+banana extract|extrato de banana|tem|S|d
+erythritol|eritritol|ado|A|d
+consomme|consomê|liq|S|u
+cornbread|pão de milho|mas|E|d
+chardonnay|chardonnay|alc|SC|a
+jalepeno|jalapeño (jalepeno)|veg|S|p
+spicy brown mustard|mostarda marrom picante|mol|SC|pa
+espresso powder|café espresso em pó|tem|S|m
+ranch dressing|molho ranch|mol|SC|ca
+spaghetti squash|abóbora-espaguete|veg|E|
+deli ham|presunto fatiado|pro|S|s
+cranberry sauce|molho de cranberry|mol|SA|da
+cracked wheat|trigo quebrado|gra|E|
+roasted garlic|alho assado|veg|S|ud
+banana pepper|pimenta banana|veg|S|p
+coconut essence|essência de coco|tem|S|d
+green cabbage|repolho verde|veg|E|
+avocado oil|óleo de abacate|gor|G|
+smart balance margarine|margarina Smart Balance|gor|GU|g
+brown rice flour|farinha de arroz integral|far|E|
+brown gravy mix|mistura para molho de carne|mol|ST|us
+natural yoghurt|iogurte natural|lat|GU|ca
+french onion dip|molho de cebola francês|mol|SG|cs
+rabbit|coelho|pro|E|u
+ranch|ranch|mol|SC|ca
+dry vermouth|vermute seco|alc|S|h
+tilapia|tilápia|pro|E|
+meatloaf mix|mistura para bolo de carne|pro|E|u
+almond bark|cobertura de amêndoa|ado|AS|d
+instant yeast|fermento biológico instantâneo|out|F|
+instant mashed potato|purê de batata instantâneo|veg|ET|
+duck|pato|pro|G|g
+rib|costela|pro|GE|u
+plantain|banana-da-terra|fru|E|
+leftover ham|sobra de presunto|pro|S|s
+split pea|ervilha partida|leg|ET|
+lemon yogurt|iogurte de limão|lat|GU|ca
+lemon rind|casca de limão (lemon rind)|tem|S|a
+skimmed milk|leite desnatado (skimmed)|lat|U|c
+lobster stock|fundo de lagosta|liq|S|u
+jasmine rice|arroz de jasmim|gra|E|
+wheat|trigo|gra|E|
+soba noodle|macarrão soba|mas|E|
+mixed fruit|frutas mistas|fru|SA|d

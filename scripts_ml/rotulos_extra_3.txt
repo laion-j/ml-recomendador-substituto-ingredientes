@@ -1,0 +1,3 @@
+dijon mustard|mostarda dijon|mol|SC|pa
+whiskey|uísque|alc|S|
+grit|canjiquinha|gra|E|

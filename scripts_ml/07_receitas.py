@@ -33,20 +33,30 @@ def main() -> None:
     oc = oc[oc.receita_id.isin(rec["id"])]                            # ocorrência sem receita no CSV é descartada
     print(f"receitas encontradas no RAW_recipes: {len(rec)}")
 
+    # Tradução feita por 07a_traduzir_receitas.py. Casamento com o vocabulário usa os ingredientes EN
+    # (rec["ingredientes"]); título, passos e lista exibidos/embedados vêm em PT.
+    arq_pt = RAIZ / "data" / "receitas_pt.json"
+    pt = {int(k): v for k, v in json.load(open(arq_pt, encoding="utf-8")).items()} if arq_pt.exists() else {}
+    print("receitas traduzidas:", len(pt), "(sem tradução = fica em inglês)")
+    rec["titulo_pt"] = [pt.get(i, {}).get("titulo", n) for i, n in zip(rec["id"], rec["name"])]
+    rec["ingr_pt"] = [pt.get(i, {}).get("ingredientes", l) for i, l in zip(rec["id"], rec["ingredientes"])]
+    rec["passos_pt"] = [("\n".join(f"{k+1}. {p}" for k, p in enumerate(pt[i]["passos"])) if i in pt else p)
+                        for i, p in zip(rec["id"], rec["passos"])]
+
     # texto -> vetor: "titulo; ingredientes", mesmo modelo e normalização dos ingredientes
     modelo = SentenceTransformer(emb.MODELO)
-    textos = [f"{n}; {', '.join(i)}" for n, i in zip(rec["name"], rec["ingredientes"])]
+    textos = [f"{n}; {', '.join(i)}" for n, i in zip(rec["titulo_pt"], rec["ingr_pt"])]
     vetores = modelo.encode(textos, normalize_embeddings=True, show_progress_bar=False, batch_size=64)
 
     with emb.conectar() as con:
         register_vector(con)
-        ids = dict(con.execute("SELECT nome, id FROM ingredientes").fetchall())
+        ids = dict(con.execute("SELECT nome_en, id FROM ingredientes").fetchall())   # chave EN: casa com as receitas e os pares
         # reexecutável: zera só o que este script cria (ingredientes ficam como o 04 deixou)
         con.execute("TRUNCATE pares_substituicao, receita_ingrediente, receitas RESTART IDENTITY CASCADE")
         cur = con.cursor()
         cur.executemany(
             "INSERT INTO receitas (id, titulo, texto_preparo, ingredientes, embedding) VALUES (%s,%s,%s,%s::jsonb,%s)",
-            [(int(r.id), r.name, r.passos, json.dumps(r.ingredientes), v)
+            [(int(r.id), r.titulo_pt, r.passos_pt, json.dumps(r.ingr_pt, ensure_ascii=False), v)
              for r, v in zip(rec.itertuples(), vetores)])
         # só ingredientes do vocabulário entram; set() evita repetir (PK composta)
         cur.executemany(

@@ -36,18 +36,24 @@ MODELO = "paraphrase-multilingual-MiniLM-L12-v2"   # 384 dims, aceita PT
 SEED = 42
 
 
-def textos_embedding(vocab: list[str], taxonomia: dict, modo: str, modelo: SentenceTransformer) -> np.ndarray:
-    """texto -> vetor (384 floats, norma 1: cosseno = produto interno). `modo` escolhe o que entra no texto."""
+def textos_embedding(vocab: list[str], taxonomia: dict, modo: str, modelo: SentenceTransformer,
+                     nomes: list[str] | None = None) -> np.ndarray:
+    """texto -> vetor (384 floats, norma 1: cosseno = produto interno). `modo` escolhe o que entra no texto.
+    `vocab` são as chaves em inglês (taxonomia, pares); `nomes` são os nomes em PT que entram no texto (default: vocab)."""
+    nomes = nomes or vocab
     def tax(n):
         t = taxonomia[n]
         return f"{t['categoria']}; {', '.join(t['funcoes'])}; {', '.join(t['sabores'])}"
     cod = lambda textos: modelo.encode(textos, normalize_embeddings=True, show_progress_bar=False)
     if modo == "baseline":   # nome + taxonomia no mesmo texto (o nome domina)
-        return cod([f"{n}; {tax(n)}" for n in vocab])
+        return cod([f"{pt}; {tax(n)}" for n, pt in zip(vocab, nomes)])
     if modo == "taxonomia":  # só categoria/funções/sabores: vizinhos por papel culinário
         return cod([tax(n) for n in vocab])
+    if modo == "en_tax2":    # padrão com 1000 ingredientes: nome EN + 2x taxonomia (ver nota em AGENTS.md)
+        soma = cod(vocab) + 2 * cod([tax(n) for n in vocab])
+        return soma / np.linalg.norm(soma, axis=1, keepdims=True)
     # média: soma dos dois vetores unitários e renormaliza (volta à norma 1)
-    soma = cod(vocab) + cod([tax(n) for n in vocab])
+    soma = cod(nomes) + cod([tax(n) for n in vocab])
     return soma / np.linalg.norm(soma, axis=1, keepdims=True)
 
 
@@ -77,8 +83,12 @@ def main(modo: str) -> None:
     taxonomia = json.load(open(RAIZ / "scripts_ml" / "taxonomia.json", encoding="utf-8"))
     vocab = pd.read_csv(RAIZ / "data" / "vocabulario.csv")["ingrediente"].tolist()
 
+    # Chaves (taxonomia, pares, mineração) continuam em inglês; o nome em PT é o que entra no embedding e na tela.
+    trad = json.load(open(RAIZ / "scripts_ml" / "traducao_ingredientes.json", encoding="utf-8"))
+    nomes = [trad[n] for n in vocab]
+
     modelo = SentenceTransformer(MODELO)
-    emb = textos_embedding(vocab, taxonomia, modo, modelo)   # (300, 384) float32
+    emb = textos_embedding(vocab, taxonomia, modo, modelo, nomes)   # (1000, 384) float32
     print("embeddings:", emb.shape, "| modo:", modo)
 
     # Só entram pares cujos DOIS lados estão no vocabulário (senão não há embedding para o lado de fora).
@@ -95,12 +105,12 @@ def main(modo: str) -> None:
         register_vector(con)   # permite passar np.ndarray como tipo `vector`
         con.execute("TRUNCATE pares_substituicao, ingredientes RESTART IDENTITY CASCADE")
         ids = {}
-        for nome, vec in zip(vocab, emb):
+        for nome, pt, vec in zip(vocab, nomes, emb):
             t = taxonomia[nome]
-            ids[nome] = con.execute(
+            ids[nome] = con.execute(   # ids indexado pelo nome EN: é a chave dos pares
                 "INSERT INTO ingredientes (nome, nome_en, categoria, funcoes, sabores, embedding) "
                 "VALUES (%s,%s,%s,%s,%s,%s) RETURNING id",
-                (nome, nome, t["categoria"], t["funcoes"], t["sabores"], vec)).fetchone()[0]
+                (pt, nome, t["categoria"], t["funcoes"], t["sabores"], vec)).fetchone()[0]
         # Uma linha por par único. receita_id fica NULL (receitas ainda não carregadas);
         # a etapa seguinte recarrega uma linha por ocorrência, com a receita.
         con.cursor().executemany(
@@ -111,5 +121,5 @@ def main(modo: str) -> None:
 
 if __name__ == "__main__":
     ap = argparse.ArgumentParser()
-    ap.add_argument("--texto", choices=["baseline", "taxonomia", "media"], default="media")
+    ap.add_argument("--texto", choices=["baseline", "taxonomia", "media", "en_tax2"], default="en_tax2")
     main(ap.parse_args().texto)

@@ -1,16 +1,29 @@
 # segredos
 .env
+.env.*
+!.env.example
 
-# dados baixados e artefatos gerados
+# dados baixados e artefatos gerados (reproduzíveis pelo pipeline em scripts_ml/)
 data/
 *.keras
+*.h5
+*.pkl
 *.bin
+*.log
+
+# pesos do modelo exportado para o front (2 MB) precisam ir no repo
+!frontend/public/models/*.bin
 
 # ambientes e caches
 .venv/
 .venv-tf/
+.venv-trad/
 __pycache__/
+.pytest_cache/
 node_modules/
+frontend/dist/
 
-# pesos do modelo exportado para o front (2 MB) precisam ir no repo
-!frontend/public/models/*.bin
+# editor e sistema
+.vscode/
+.idea/
+.DS_Store

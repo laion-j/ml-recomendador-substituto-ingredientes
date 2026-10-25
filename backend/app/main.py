@@ -10,6 +10,7 @@ from psycopg_pool import AsyncConnectionPool
 from sentence_transformers import SentenceTransformer
 
 from . import repositorio
+from .lab import router as lab_router
 from .schemas import BuscaIn, BuscaOut, ReceitaResumo
 
 MODELO = "paraphrase-multilingual-MiniLM-L12-v2"  # o mesmo do treino/ingestão
@@ -40,6 +41,9 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
+
+
+app.include_router(lab_router)
 
 
 async def embedar(request: Request, texto: str):
