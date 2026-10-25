@@ -4,6 +4,16 @@ Você está fazendo uma receita, falta um ingrediente, e o app sugere o que usar
 
 É um projeto de estudo: o objetivo é entender, na prática, como juntar **embeddings, banco vetorial e uma rede neural rodando no navegador**. O código é comentado em PT-BR para ser relido.
 
+## Como fica
+
+Aba Substituir: escolha uma receita, clique no ingrediente que falta e veja os candidatos reordenados (o score de compatibilidade vem do reranker; a posição original do pgvector aparece ao lado).
+
+![Aba Substituir](docs/substituir.png)
+
+Aba Laboratório de treino: separação dos dados, configuração da rede, treino ao vivo e validação contra os baselines.
+
+![Laboratório de treino](docs/laboratorio.png)
+
 ## A ideia em uma frase
 
 Um banco vetorial (pgvector) acha rápido os 30 candidatos parecidos; uma rede neural pequena (TensorFlow.js, no navegador) reordena esses 30 olhando a receita.
