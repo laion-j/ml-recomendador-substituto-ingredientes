@@ -1,0 +1,12 @@
+# Mesmas versões de scripts_ml/requirements.txt para o que é compartilhado.
+fastapi==0.156.4
+uvicorn==0.54.0
+psycopg[binary,pool]==3.3.6
+psycopg-pool==3.3.3
+pgvector==0.5.1
+numpy==2.5.4
+torch==2.14.1
+sentence-transformers==6.1.0
+# httpx: exigido pelo TestClient do FastAPI
+httpx==0.28.1
+pytest==9.1.1

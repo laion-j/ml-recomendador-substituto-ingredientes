@@ -1,0 +1,61 @@
+{
+  "ordem_features": [
+    "receita(384)",
+    "original(384)",
+    "candidato(384)",
+    "original*candidato(384)",
+    "abs(original-candidato)(384)",
+    "distancia_cosseno(1)",
+    "multi_hot_categoria_candidato(18)",
+    "multi_hot_funcoes_candidato(10)",
+    "multi_hot_sabores_candidato(9)"
+  ],
+  "dim_entrada": 1958,
+  "dim_embedding": 384,
+  "categorias": [
+    "acido",
+    "adocante",
+    "bebida_alcoolica",
+    "castanha",
+    "erva",
+    "farinha",
+    "fruta",
+    "gordura",
+    "graos",
+    "laticinio",
+    "leguminosa",
+    "liquido",
+    "massa",
+    "molho",
+    "outro",
+    "proteina",
+    "tempero",
+    "vegetal"
+  ],
+  "funcoes": [
+    "acidez",
+    "adocante",
+    "cor",
+    "espessante",
+    "estrutura",
+    "fermento",
+    "gordura",
+    "ligante",
+    "sabor",
+    "umidade"
+  ],
+  "sabores": [
+    "acido",
+    "amargo",
+    "cremoso",
+    "doce",
+    "gorduroso",
+    "herbal",
+    "picante",
+    "salgado",
+    "umami"
+  ],
+  "k_candidatos": 30,
+  "versao_embedding": "paraphrase-multilingual-MiniLM-L12-v2 / media nome+taxonomia",
+  "nota": "A saída (sigmoid) é um score de ranking, não uma probabilidade calibrada."
+}

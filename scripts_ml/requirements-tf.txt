@@ -1,0 +1,12 @@
+# Ambiente do reranker (.venv-tf): python3 -m venv .venv-tf && .venv-tf/bin/pip install -r scripts_ml/requirements-tf.txt
+# Separado do .venv principal (torch). Pares fixados após testar a exportação com um modelo de brinquedo.
+tensorflow==2.19.0
+tf_keras==2.19.0          # Keras 2: o tfjs-layers 4.22 NÃO carrega o model.json gerado pelo Keras 3
+tensorflowjs==4.21.0
+tensorflow_decision_forests==1.12.0   # o tensorflowjs_converter importa este pacote (dependência implícita)
+numpy==2.1.3
+psycopg[binary]==3.3.6
+pgvector==0.5.1
+# protobuf 6.x é exigido pelo tensorflow_decision_forests; o pip reclama do TF 2.19 (<6), mas funciona na prática
+protobuf==6.31.1
+setuptools==80.10.2       # tensorflow_hub (importado pelo conversor) ainda usa pkg_resources

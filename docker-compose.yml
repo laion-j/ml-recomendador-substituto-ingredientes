@@ -1,0 +1,28 @@
+# PostgreSQL + pgvector: banco vetorial local para o recall (top-K por similaridade).
+services:
+  db:
+    # Imagem oficial do pgvector já traz o PostgreSQL com a extensão compilada.
+    # Versão fixa (pg16) para o ambiente ser reprodutível.
+    image: pgvector/pgvector:pg16
+    container_name: ml-ingredientes-db
+    environment:
+      # Lidas do ambiente/.env; o default ":-" serve só para desenvolvimento local.
+      POSTGRES_USER: ${POSTGRES_USER:-ingredientes}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-ingredientes}
+      POSTGRES_DB: ${POSTGRES_DB:-ingredientes}
+    ports:
+      - "${POSTGRES_PORT:-5432}:5432"
+    volumes:
+      # Volume nomeado: os dados (e embeddings caros de gerar) sobrevivem a `docker compose down`.
+      - pgdata:/var/lib/postgresql/data
+      # Scripts rodam só na PRIMEIRA criação do volume. Para refazer o schema: `down -v`.
+      - ./db/init.sql:/docker-entrypoint-initdb.d/init.sql:ro
+    healthcheck:
+      # Só fica "healthy" quando o Postgres aceita conexões (depois do init.sql).
+      test: ["CMD-SHELL", "pg_isready -U $${POSTGRES_USER} -d $${POSTGRES_DB}"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+
+volumes:
+  pgdata:

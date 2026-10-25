@@ -1,0 +1,2884 @@
+{
+ "_meta": "Rotulagem manual feita pelo agente a partir de conhecimento culinario, REVISAR. Chaves = ingredientes do vocabulario (data/vocabulario.csv, gerado por 03_preparar.py). Itens vagos (top, white, chop, chip, powder, paste, seed, extract) sao ruido de extracao e tem rotulos aproximados.",
+ "butter": {
+  "categoria": "laticinio",
+  "funcoes": [
+   "gordura",
+   "sabor",
+   "umidade"
+  ],
+  "sabores": [
+   "cremoso",
+   "gorduroso"
+  ]
+ },
+ "water": {
+  "categoria": "liquido",
+  "funcoes": [
+   "umidade"
+  ],
+  "sabores": []
+ },
+ "sugar": {
+  "categoria": "adocante",
+  "funcoes": [
+   "adocante",
+   "estrutura"
+  ],
+  "sabores": [
+   "doce"
+  ]
+ },
+ "milk": {
+  "categoria": "laticinio",
+  "funcoes": [
+   "umidade"
+  ],
+  "sabores": [
+   "cremoso"
+  ]
+ },
+ "beef": {
+  "categoria": "proteina",
+  "funcoes": [
+   "sabor"
+  ],
+  "sabores": [
+   "umami"
+  ]
+ },
+ "olive oil": {
+  "categoria": "gordura",
+  "funcoes": [
+   "gordura"
+  ],
+  "sabores": [
+   "gorduroso"
+  ]
+ },
+ "sour cream": {
+  "categoria": "laticinio",
+  "funcoes": [
+   "umidade",
+   "acidez"
+  ],
+  "sabores": [
+   "cremoso",
+   "acido"
+  ]
+ },
+ "honey": {
+  "categoria": "adocante",
+  "funcoes": [
+   "adocante",
+   "umidade"
+  ],
+  "sabores": [
+   "doce"
+  ]
+ },
+ "oil": {
+  "categoria": "gordura",
+  "funcoes": [
+   "gordura",
+   "umidade"
+  ],
+  "sabores": [
+   "gorduroso"
+  ]
+ },
+ "raisin": {
+  "categoria": "fruta",
+  "funcoes": [
+   "adocante"
+  ],
+  "sabores": [
+   "doce"
+  ]
+ },
+ "chicken": {
+  "categoria": "proteina",
+  "funcoes": [
+   "sabor"
+  ],
+  "sabores": [
+   "umami"
+  ]
+ },
+ "bacon": {
+  "categoria": "proteina",
+  "funcoes": [
+   "sabor",
+   "gordura"
+  ],
+  "sabores": [
+   "salgado",
+   "umami",
+   "gorduroso"
+  ]
+ },
+ "cream": {
+  "categoria": "laticinio",
+  "funcoes": [
+   "gordura",
+   "umidade"
+  ],
+  "sabores": [
+   "cremoso",
+   "gorduroso"
+  ]
+ },
+ "walnut": {
+  "categoria": "castanha",
+  "funcoes": [
+   "estrutura",
+   "sabor"
+  ],
+  "sabores": [
+   "amargo",
+   "gorduroso"
+  ]
+ },
+ "chicken broth": {
+  "categoria": "liquido",
+  "funcoes": [
+   "umidade",
+   "sabor"
+  ],
+  "sabores": [
+   "umami",
+   "salgado"
+  ]
+ },
+ "flour": {
+  "categoria": "farinha",
+  "funcoes": [
+   "estrutura",
+   "espessante"
+  ],
+  "sabores": []
+ },
+ "green onion": {
+  "categoria": "vegetal",
+  "funcoes": [
+   "sabor"
+  ],
+  "sabores": [
+   "picante",
+   "herbal"
+  ]
+ },
+ "onion": {
+  "categoria": "vegetal",
+  "funcoes": [
+   "sabor"
+  ],
+  "sabores": [
+   "doce",
+   "picante"
+  ]
+ },
+ "almond": {
+  "categoria": "castanha",
+  "funcoes": [
+   "estrutura",
+   "sabor"
+  ],
+  "sabores": [
+   "doce",
+   "gorduroso"
+  ]
+ },
+ "margarine": {
+  "categoria": "gordura",
+  "funcoes": [
+   "gordura"
+  ],
+  "sabores": [
+   "gorduroso",
+   "cremoso"
+  ]
+ },
+ "parsley": {
+  "categoria": "erva",
+  "funcoes": [
+   "sabor",
+   "cor"
+  ],
+  "sabores": [
+   "herbal"
+  ]
+ },
+ "shortening": {
+  "categoria": "gordura",
+  "funcoes": [
+   "gordura",
+   "estrutura"
+  ],
+  "sabores": [
+   "gorduroso"
+  ]
+ },
+ "tomato sauce": {
+  "categoria": "molho",
+  "funcoes": [
+   "umidade",
+   "sabor"
+  ],
+  "sabores": [
+   "acido",
+   "umami"
+  ]
+ },
+ "pecan": {
+  "categoria": "castanha",
+  "funcoes": [
+   "estrutura",
+   "sabor"
+  ],
+  "sabores": [
+   "doce",
+   "gorduroso"
+  ]
+ },
+ "basil": {
+  "categoria": "erva",
+  "funcoes": [
+   "sabor"
+  ],
+  "sabores": [
+   "herbal"
+  ]
+ },
+ "ham": {
+  "categoria": "proteina",
+  "funcoes": [
+   "sabor"
+  ],
+  "sabores": [
+   "salgado",
+   "umami"
+  ]
+ },
+ "shallot": {
+  "categoria": "vegetal",
+  "funcoes": [
+   "sabor"
+  ],
+  "sabores": [
+   "doce",
+   "picante"
+  ]
+ },
+ "brown sugar": {
+  "categoria": "adocante",
+  "funcoes": [
+   "adocante",
+   "umidade"
+  ],
+  "sabores": [
+   "doce"
+  ]
+ },
+ "spinach": {
+  "categoria": "vegetal",
+  "funcoes": [
+   "cor"
+  ],
+  "sabores": [
+   "herbal",
+   "amargo"
+  ]
+ },
+ "vegetable oil": {
+  "categoria": "gordura",
+  "funcoes": [
+   "gordura",
+   "umidade"
+  ],
+  "sabores": [
+   "gorduroso"
+  ]
+ },
+ "buttermilk": {
+  "categoria": "laticinio",
+  "funcoes": [
+   "umidade",
+   "acidez",
+   "fermento"
+  ],
+  "sabores": [
+   "acido",
+   "cremoso"
+  ]
+ },
+ "vanilla": {
+  "categoria": "tempero",
+  "funcoes": [
+   "sabor"
+  ],
+  "sabores": [
+   "doce"
+  ]
+ },
+ "yogurt": {
+  "categoria": "laticinio",
+  "funcoes": [
+   "umidade",
+   "acidez"
+  ],
+  "sabores": [
+   "acido",
+   "cremoso"
+  ]
+ },
+ "canola oil": {
+  "categoria": "gordura",
+  "funcoes": [
+   "gordura",
+   "umidade"
+  ],
+  "sabores": [
+   "gorduroso"
+  ]
+ },
+ "turkey": {
+  "categoria": "proteina",
+  "funcoes": [
+   "sabor"
+  ],
+  "sabores": [
+   "umami"
+  ]
+ },
+ "lemon juice": {
+  "categoria": "acido",
+  "funcoes": [
+   "acidez"
+  ],
+  "sabores": [
+   "acido"
+  ]
+ },
+ "chive": {
+  "categoria": "erva",
+  "funcoes": [
+   "sabor"
+  ],
+  "sabores": [
+   "herbal",
+   "picante"
+  ]
+ },
+ "thyme": {
+  "categoria": "erva",
+  "funcoes": [
+   "sabor"
+  ],
+  "sabores": [
+   "herbal"
+  ]
+ },
+ "rice": {
+  "categoria": "graos",
+  "funcoes": [
+   "estrutura"
+  ],
+  "sabores": []
+ },
+ "tomato": {
+  "categoria": "vegetal",
+  "funcoes": [
+   "umidade",
+   "sabor",
+   "acidez"
+  ],
+  "sabores": [
+   "acido",
+   "umami"
+  ]
+ },
+ "pea": {
+  "categoria": "leguminosa",
+  "funcoes": [
+   "estrutura",
+   "cor"
+  ],
+  "sabores": [
+   "doce"
+  ]
+ },
+ "oregano": {
+  "categoria": "erva",
+  "funcoes": [
+   "sabor"
+  ],
+  "sabores": [
+   "herbal"
+  ]
+ },
+ "salt": {
+  "categoria": "tempero",
+  "funcoes": [
+   "sabor"
+  ],
+  "sabores": [
+   "salgado"
+  ]
+ },
+ "cilantro": {
+  "categoria": "erva",
+  "funcoes": [
+   "sabor"
+  ],
+  "sabores": [
+   "herbal"
+  ]
+ },
+ "ketchup": {
+  "categoria": "molho",
+  "funcoes": [
+   "sabor"
+  ],
+  "sabores": [
+   "doce",
+   "acido"
+  ]
+ },
+ "scallion": {
+  "categoria": "vegetal",
+  "funcoes": [
+   "sabor"
+  ],
+  "sabores": [
+   "picante",
+   "herbal"
+  ]
+ },
+ "cranberry": {
+  "categoria": "fruta",
+  "funcoes": [
+   "acidez",
+   "cor"
+  ],
+  "sabores": [
+   "acido",
+   "doce"
+  ]
+ },
+ "cream cheese": {
+  "categoria": "laticinio",
+  "funcoes": [
+   "gordura",
+   "estrutura"
+  ],
+  "sabores": [
+   "cremoso",
+   "acido"
+  ]
+ },
+ "breast": {
+  "categoria": "proteina",
+  "funcoes": [
+   "sabor"
+  ],
+  "sabores": [
+   "umami"
+  ]
+ },
+ "broth": {
+  "categoria": "liquido",
+  "funcoes": [
+   "umidade",
+   "sabor"
+  ],
+  "sabores": [
+   "umami",
+   "salgado"
+  ]
+ },
+ "breadcrumb": {
+  "categoria": "farinha",
+  "funcoes": [
+   "estrutura"
+  ],
+  "sabores": []
+ },
+ "wine": {
+  "categoria": "bebida_alcoolica",
+  "funcoes": [
+   "acidez",
+   "sabor"
+  ],
+  "sabores": [
+   "acido"
+  ]
+ },
+ "salsa": {
+  "categoria": "molho",
+  "funcoes": [
+   "sabor",
+   "umidade"
+  ],
+  "sabores": [
+   "acido",
+   "picante"
+  ]
+ },
+ "celery": {
+  "categoria": "vegetal",
+  "funcoes": [
+   "sabor",
+   "umidade"
+  ],
+  "sabores": [
+   "herbal"
+  ]
+ },
+ "sausage": {
+  "categoria": "proteina",
+  "funcoes": [
+   "sabor",
+   "gordura"
+  ],
+  "sabores": [
+   "salgado",
+   "umami",
+   "gorduroso"
+  ]
+ },
+ "cinnamon": {
+  "categoria": "tempero",
+  "funcoes": [
+   "sabor"
+  ],
+  "sabores": [
+   "doce"
+  ]
+ },
+ "chicken stock": {
+  "categoria": "liquido",
+  "funcoes": [
+   "umidade",
+   "sabor"
+  ],
+  "sabores": [
+   "umami",
+   "salgado"
+  ]
+ },
+ "blueberry": {
+  "categoria": "fruta",
+  "funcoes": [
+   "sabor",
+   "cor"
+  ],
+  "sabores": [
+   "doce",
+   "acido"
+  ]
+ },
+ "mushroom": {
+  "categoria": "vegetal",
+  "funcoes": [
+   "sabor"
+  ],
+  "sabores": [
+   "umami"
+  ]
+ },
+ "cornstarch": {
+  "categoria": "farinha",
+  "funcoes": [
+   "espessante"
+  ],
+  "sabores": []
+ },
+ "carrot": {
+  "categoria": "vegetal",
+  "funcoes": [
+   "sabor",
+   "cor"
+  ],
+  "sabores": [
+   "doce"
+  ]
+ },
+ "white wine": {
+  "categoria": "bebida_alcoolica",
+  "funcoes": [
+   "acidez",
+   "sabor"
+  ],
+  "sabores": [
+   "acido"
+  ]
+ },
+ "maple syrup": {
+  "categoria": "adocante",
+  "funcoes": [
+   "adocante",
+   "umidade"
+  ],
+  "sabores": [
+   "doce"
+  ]
+ },
+ "soy sauce": {
+  "categoria": "molho",
+  "funcoes": [
+   "sabor"
+  ],
+  "sabores": [
+   "salgado",
+   "umami"
+  ]
+ },
+ "zucchini": {
+  "categoria": "vegetal",
+  "funcoes": [
+   "umidade"
+  ],
+  "sabores": []
+ },
+ "broccoli": {
+  "categoria": "vegetal",
+  "funcoes": [
+   "estrutura"
+  ],
+  "sabores": [
+   "amargo"
+  ]
+ },
+ "chicken breast": {
+  "categoria": "proteina",
+  "funcoes": [
+   "sabor"
+  ],
+  "sabores": [
+   "umami"
+  ]
+ },
+ "powder": {
+  "categoria": "tempero",
+  "funcoes": [
+   "sabor"
+  ],
+  "sabores": []
+ },
+ "garlic powder": {
+  "categoria": "tempero",
+  "funcoes": [
+   "sabor"
+  ],
+  "sabores": [
+   "picante",
+   "umami"
+  ]
+ },
+ "apple juice": {
+  "categoria": "liquido",
+  "funcoes": [
+   "umidade",
+   "adocante"
+  ],
+  "sabores": [
+   "doce",
+   "acido"
+  ]
+ },
+ "thigh": {
+  "categoria": "proteina",
+  "funcoes": [
+   "sabor",
+   "gordura"
+  ],
+  "sabores": [
+   "umami",
+   "gorduroso"
+  ]
+ },
+ "sherry": {
+  "categoria": "bebida_alcoolica",
+  "funcoes": [
+   "sabor",
+   "acidez"
+  ],
+  "sabores": [
+   "doce",
+   "acido"
+  ]
+ },
+ "heavy cream": {
+  "categoria": "laticinio",
+  "funcoes": [
+   "gordura",
+   "umidade"
+  ],
+  "sabores": [
+   "cremoso",
+   "gorduroso"
+  ]
+ },
+ "applesauce": {
+  "categoria": "fruta",
+  "funcoes": [
+   "umidade",
+   "adocante"
+  ],
+  "sabores": [
+   "doce"
+  ]
+ },
+ "potato": {
+  "categoria": "vegetal",
+  "funcoes": [
+   "estrutura",
+   "espessante"
+  ],
+  "sabores": []
+ },
+ "pork": {
+  "categoria": "proteina",
+  "funcoes": [
+   "sabor",
+   "gordura"
+  ],
+  "sabores": [
+   "umami",
+   "gorduroso"
+  ]
+ },
+ "red onion": {
+  "categoria": "vegetal",
+  "funcoes": [
+   "sabor"
+  ],
+  "sabores": [
+   "picante",
+   "doce"
+  ]
+ },
+ "strawberry": {
+  "categoria": "fruta",
+  "funcoes": [
+   "sabor",
+   "cor"
+  ],
+  "sabores": [
+   "doce",
+   "acido"
+  ]
+ },
+ "nutmeg": {
+  "categoria": "tempero",
+  "funcoes": [
+   "sabor"
+  ],
+  "sabores": [
+   "doce"
+  ]
+ },
+ "rosemary": {
+  "categoria": "erva",
+  "funcoes": [
+   "sabor"
+  ],
+  "sabores": [
+   "herbal"
+  ]
+ },
+ "peanut": {
+  "categoria": "castanha",
+  "funcoes": [
+   "estrutura",
+   "sabor"
+  ],
+  "sabores": [
+   "gorduroso"
+  ]
+ },
+ "black bean": {
+  "categoria": "leguminosa",
+  "funcoes": [
+   "estrutura"
+  ],
+  "sabores": [
+   "umami"
+  ]
+ },
+ "beef broth": {
+  "categoria": "liquido",
+  "funcoes": [
+   "umidade",
+   "sabor"
+  ],
+  "sabores": [
+   "umami",
+   "salgado"
+  ]
+ },
+ "chocolate chip": {
+  "categoria": "adocante",
+  "funcoes": [
+   "sabor",
+   "cor"
+  ],
+  "sabores": [
+   "doce",
+   "amargo"
+  ]
+ },
+ "coconut oil": {
+  "categoria": "gordura",
+  "funcoes": [
+   "gordura"
+  ],
+  "sabores": [
+   "gorduroso"
+  ]
+ },
+ "garlic salt": {
+  "categoria": "tempero",
+  "funcoes": [
+   "sabor"
+  ],
+  "sabores": [
+   "salgado",
+   "picante"
+  ]
+ },
+ "garlic": {
+  "categoria": "vegetal",
+  "funcoes": [
+   "sabor"
+  ],
+  "sabores": [
+   "picante",
+   "umami"
+  ]
+ },
+ "molass": {
+  "categoria": "adocante",
+  "funcoes": [
+   "adocante",
+   "umidade",
+   "cor"
+  ],
+  "sabores": [
+   "doce",
+   "amargo"
+  ]
+ },
+ "cherry": {
+  "categoria": "fruta",
+  "funcoes": [
+   "sabor",
+   "cor"
+  ],
+  "sabores": [
+   "doce",
+   "acido"
+  ]
+ },
+ "shrimp": {
+  "categoria": "proteina",
+  "funcoes": [
+   "sabor"
+  ],
+  "sabores": [
+   "umami"
+  ]
+ },
+ "vegetable broth": {
+  "categoria": "liquido",
+  "funcoes": [
+   "umidade",
+   "sabor"
+  ],
+  "sabores": [
+   "umami",
+   "salgado"
+  ]
+ },
+ "dill": {
+  "categoria": "erva",
+  "funcoes": [
+   "sabor"
+  ],
+  "sabores": [
+   "herbal"
+  ]
+ },
+ "beer": {
+  "categoria": "bebida_alcoolica",
+  "funcoes": [
+   "umidade",
+   "fermento"
+  ],
+  "sabores": [
+   "amargo"
+  ]
+ },
+ "cottage cheese": {
+  "categoria": "laticinio",
+  "funcoes": [
+   "estrutura",
+   "umidade"
+  ],
+  "sabores": [
+   "cremoso",
+   "salgado"
+  ]
+ },
+ "orange juice": {
+  "categoria": "liquido",
+  "funcoes": [
+   "umidade",
+   "acidez"
+  ],
+  "sabores": [
+   "doce",
+   "acido"
+  ]
+ },
+ "pine nut": {
+  "categoria": "castanha",
+  "funcoes": [
+   "sabor"
+  ],
+  "sabores": [
+   "gorduroso",
+   "doce"
+  ]
+ },
+ "pepper": {
+  "categoria": "tempero",
+  "funcoes": [
+   "sabor"
+  ],
+  "sabores": [
+   "picante"
+  ]
+ },
+ "tomato paste": {
+  "categoria": "molho",
+  "funcoes": [
+   "espessante",
+   "sabor",
+   "cor"
+  ],
+  "sabores": [
+   "umami",
+   "acido"
+  ]
+ },
+ "raspberry": {
+  "categoria": "fruta",
+  "funcoes": [
+   "sabor",
+   "cor"
+  ],
+  "sabores": [
+   "doce",
+   "acido"
+  ]
+ },
+ "green pepper": {
+  "categoria": "vegetal",
+  "funcoes": [
+   "sabor"
+  ],
+  "sabores": [
+   "amargo",
+   "herbal"
+  ]
+ },
+ "corn": {
+  "categoria": "vegetal",
+  "funcoes": [
+   "estrutura"
+  ],
+  "sabores": [
+   "doce"
+  ]
+ },
+ "green bean": {
+  "categoria": "vegetal",
+  "funcoes": [
+   "estrutura"
+  ],
+  "sabores": [
+   "herbal"
+  ]
+ },
+ "lemon": {
+  "categoria": "fruta",
+  "funcoes": [
+   "acidez",
+   "sabor"
+  ],
+  "sabores": [
+   "acido"
+  ]
+ },
+ "corn syrup": {
+  "categoria": "adocante",
+  "funcoes": [
+   "adocante",
+   "umidade"
+  ],
+  "sabores": [
+   "doce"
+  ]
+ },
+ "apple": {
+  "categoria": "fruta",
+  "funcoes": [
+   "sabor",
+   "umidade"
+  ],
+  "sabores": [
+   "doce",
+   "acido"
+  ]
+ },
+ "leek": {
+  "categoria": "vegetal",
+  "funcoes": [
+   "sabor"
+  ],
+  "sabores": [
+   "doce",
+   "picante"
+  ]
+ },
+ "egg": {
+  "categoria": "proteina",
+  "funcoes": [
+   "ligante",
+   "estrutura",
+   "umidade"
+  ],
+  "sabores": [
+   "cremoso"
+  ]
+ },
+ "chili powder": {
+  "categoria": "tempero",
+  "funcoes": [
+   "sabor"
+  ],
+  "sabores": [
+   "picante"
+  ]
+ },
+ "vinegar": {
+  "categoria": "acido",
+  "funcoes": [
+   "acidez"
+  ],
+  "sabores": [
+   "acido"
+  ]
+ },
+ "red wine vinegar": {
+  "categoria": "acido",
+  "funcoes": [
+   "acidez"
+  ],
+  "sabores": [
+   "acido"
+  ]
+ },
+ "spaghetti": {
+  "categoria": "massa",
+  "funcoes": [
+   "estrutura"
+  ],
+  "sabores": []
+ },
+ "sauce": {
+  "categoria": "molho",
+  "funcoes": [
+   "sabor",
+   "umidade"
+  ],
+  "sabores": []
+ },
+ "onion powder": {
+  "categoria": "tempero",
+  "funcoes": [
+   "sabor"
+  ],
+  "sabores": [
+   "doce",
+   "picante"
+  ]
+ },
+ "cashew": {
+  "categoria": "castanha",
+  "funcoes": [
+   "estrutura",
+   "sabor"
+  ],
+  "sabores": [
+   "doce",
+   "cremoso"
+  ]
+ },
+ "date": {
+  "categoria": "fruta",
+  "funcoes": [
+   "adocante"
+  ],
+  "sabores": [
+   "doce"
+  ]
+ },
+ "splenda": {
+  "categoria": "adocante",
+  "funcoes": [
+   "adocante"
+  ],
+  "sabores": [
+   "doce"
+  ]
+ },
+ "bread": {
+  "categoria": "farinha",
+  "funcoes": [
+   "estrutura"
+  ],
+  "sabores": []
+ },
+ "italian seasoning": {
+  "categoria": "tempero",
+  "funcoes": [
+   "sabor"
+  ],
+  "sabores": [
+   "herbal"
+  ]
+ },
+ "apricot": {
+  "categoria": "fruta",
+  "funcoes": [
+   "sabor"
+  ],
+  "sabores": [
+   "doce",
+   "acido"
+  ]
+ },
+ "skim milk": {
+  "categoria": "laticinio",
+  "funcoes": [
+   "umidade"
+  ],
+  "sabores": []
+ },
+ "kidney bean": {
+  "categoria": "leguminosa",
+  "funcoes": [
+   "estrutura"
+  ],
+  "sabores": []
+ },
+ "whipping cream": {
+  "categoria": "laticinio",
+  "funcoes": [
+   "gordura",
+   "umidade"
+  ],
+  "sabores": [
+   "cremoso",
+   "gorduroso"
+  ]
+ },
+ "sweet potato": {
+  "categoria": "vegetal",
+  "funcoes": [
+   "estrutura",
+   "umidade"
+  ],
+  "sabores": [
+   "doce"
+  ]
+ },
+ "miracle whip": {
+  "categoria": "molho",
+  "funcoes": [
+   "umidade",
+   "acidez"
+  ],
+  "sabores": [
+   "doce",
+   "acido",
+   "cremoso"
+  ]
+ },
+ "coconut milk": {
+  "categoria": "liquido",
+  "funcoes": [
+   "umidade",
+   "gordura"
+  ],
+  "sabores": [
+   "cremoso",
+   "doce"
+  ]
+ },
+ "top": {
+  "categoria": "outro",
+  "funcoes": [
+   "sabor"
+  ],
+  "sabores": []
+ },
+ "mayonnaise": {
+  "categoria": "molho",
+  "funcoes": [
+   "gordura",
+   "ligante",
+   "umidade"
+  ],
+  "sabores": [
+   "cremoso",
+   "acido"
+  ]
+ },
+ "vegetable stock": {
+  "categoria": "liquido",
+  "funcoes": [
+   "umidade",
+   "sabor"
+  ],
+  "sabores": [
+   "umami",
+   "salgado"
+  ]
+ },
+ "banana": {
+  "categoria": "fruta",
+  "funcoes": [
+   "umidade",
+   "adocante",
+   "ligante"
+  ],
+  "sabores": [
+   "doce"
+  ]
+ },
+ "lime juice": {
+  "categoria": "acido",
+  "funcoes": [
+   "acidez"
+  ],
+  "sabores": [
+   "acido"
+  ]
+ },
+ "currant": {
+  "categoria": "fruta",
+  "funcoes": [
+   "adocante"
+  ],
+  "sabores": [
+   "doce",
+   "acido"
+  ]
+ },
+ "cayenne pepper": {
+  "categoria": "tempero",
+  "funcoes": [
+   "sabor"
+  ],
+  "sabores": [
+   "picante"
+  ]
+ },
+ "juice": {
+  "categoria": "liquido",
+  "funcoes": [
+   "umidade"
+  ],
+  "sabores": [
+   "doce",
+   "acido"
+  ]
+ },
+ "stock": {
+  "categoria": "liquido",
+  "funcoes": [
+   "umidade",
+   "sabor"
+  ],
+  "sabores": [
+   "umami",
+   "salgado"
+  ]
+ },
+ "pumpkin": {
+  "categoria": "vegetal",
+  "funcoes": [
+   "umidade",
+   "estrutura"
+  ],
+  "sabores": [
+   "doce"
+  ]
+ },
+ "cabbage": {
+  "categoria": "vegetal",
+  "funcoes": [
+   "estrutura"
+  ],
+  "sabores": [
+   "amargo"
+  ]
+ },
+ "cayenne": {
+  "categoria": "tempero",
+  "funcoes": [
+   "sabor"
+  ],
+  "sabores": [
+   "picante"
+  ]
+ },
+ "agave nectar": {
+  "categoria": "adocante",
+  "funcoes": [
+   "adocante",
+   "umidade"
+  ],
+  "sabores": [
+   "doce"
+  ]
+ },
+ "lard": {
+  "categoria": "gordura",
+  "funcoes": [
+   "gordura"
+  ],
+  "sabores": [
+   "gorduroso"
+  ]
+ },
+ "peanut oil": {
+  "categoria": "gordura",
+  "funcoes": [
+   "gordura"
+  ],
+  "sabores": [
+   "gorduroso"
+  ]
+ },
+ "peach": {
+  "categoria": "fruta",
+  "funcoes": [
+   "sabor",
+   "umidade"
+  ],
+  "sabores": [
+   "doce"
+  ]
+ },
+ "asparagus": {
+  "categoria": "vegetal",
+  "funcoes": [
+   "estrutura"
+  ],
+  "sabores": [
+   "herbal",
+   "amargo"
+  ]
+ },
+ "noodle": {
+  "categoria": "massa",
+  "funcoes": [
+   "estrutura"
+  ],
+  "sabores": []
+ },
+ "cooking spray": {
+  "categoria": "gordura",
+  "funcoes": [
+   "gordura"
+  ],
+  "sabores": [
+   "gorduroso"
+  ]
+ },
+ "jalapeno": {
+  "categoria": "vegetal",
+  "funcoes": [
+   "sabor"
+  ],
+  "sabores": [
+   "picante"
+  ]
+ },
+ "mayo": {
+  "categoria": "molho",
+  "funcoes": [
+   "gordura",
+   "ligante",
+   "umidade"
+  ],
+  "sabores": [
+   "cremoso",
+   "acido"
+  ]
+ },
+ "paprika": {
+  "categoria": "tempero",
+  "funcoes": [
+   "sabor",
+   "cor"
+  ],
+  "sabores": [
+   "doce"
+  ]
+ },
+ "tarragon": {
+  "categoria": "erva",
+  "funcoes": [
+   "sabor"
+  ],
+  "sabores": [
+   "herbal"
+  ]
+ },
+ "kale": {
+  "categoria": "vegetal",
+  "funcoes": [
+   "estrutura"
+  ],
+  "sabores": [
+   "amargo",
+   "herbal"
+  ]
+ },
+ "black pepper": {
+  "categoria": "tempero",
+  "funcoes": [
+   "sabor"
+  ],
+  "sabores": [
+   "picante"
+  ]
+ },
+ "chip": {
+  "categoria": "outro",
+  "funcoes": [
+   "estrutura"
+  ],
+  "sabores": [
+   "salgado"
+  ]
+ },
+ "chicken thigh": {
+  "categoria": "proteina",
+  "funcoes": [
+   "sabor",
+   "gordura"
+  ],
+  "sabores": [
+   "umami",
+   "gorduroso"
+  ]
+ },
+ "almond extract": {
+  "categoria": "tempero",
+  "funcoes": [
+   "sabor"
+  ],
+  "sabores": [
+   "doce"
+  ]
+ },
+ "lime": {
+  "categoria": "fruta",
+  "funcoes": [
+   "acidez",
+   "sabor"
+  ],
+  "sabores": [
+   "acido"
+  ]
+ },
+ "red pepper": {
+  "categoria": "vegetal",
+  "funcoes": [
+   "sabor",
+   "cor"
+  ],
+  "sabores": [
+   "doce"
+  ]
+ },
+ "evaporated milk": {
+  "categoria": "laticinio",
+  "funcoes": [
+   "umidade"
+  ],
+  "sabores": [
+   "cremoso",
+   "doce"
+  ]
+ },
+ "peanut butter": {
+  "categoria": "castanha",
+  "funcoes": [
+   "gordura",
+   "estrutura",
+   "sabor"
+  ],
+  "sabores": [
+   "cremoso",
+   "gorduroso"
+  ]
+ },
+ "pancetta": {
+  "categoria": "proteina",
+  "funcoes": [
+   "sabor",
+   "gordura"
+  ],
+  "sabores": [
+   "salgado",
+   "gorduroso"
+  ]
+ },
+ "ghee": {
+  "categoria": "gordura",
+  "funcoes": [
+   "gordura",
+   "sabor"
+  ],
+  "sabores": [
+   "gorduroso",
+   "cremoso"
+  ]
+ },
+ "beef stock": {
+  "categoria": "liquido",
+  "funcoes": [
+   "umidade",
+   "sabor"
+  ],
+  "sabores": [
+   "umami",
+   "salgado"
+  ]
+ },
+ "red wine": {
+  "categoria": "bebida_alcoolica",
+  "funcoes": [
+   "acidez",
+   "sabor"
+  ],
+  "sabores": [
+   "acido",
+   "amargo"
+  ]
+ },
+ "lamb": {
+  "categoria": "proteina",
+  "funcoes": [
+   "sabor",
+   "gordura"
+  ],
+  "sabores": [
+   "umami",
+   "gorduroso"
+  ]
+ },
+ "paste": {
+  "categoria": "molho",
+  "funcoes": [
+   "sabor",
+   "espessante"
+  ],
+  "sabores": [
+   "umami"
+  ]
+ },
+ "marjoram": {
+  "categoria": "erva",
+  "funcoes": [
+   "sabor"
+  ],
+  "sabores": [
+   "herbal"
+  ]
+ },
+ "cumin": {
+  "categoria": "tempero",
+  "funcoes": [
+   "sabor"
+  ],
+  "sabores": [
+   "amargo"
+  ]
+ },
+ "seed": {
+  "categoria": "castanha",
+  "funcoes": [
+   "estrutura"
+  ],
+  "sabores": [
+   "gorduroso"
+  ]
+ },
+ "allspice": {
+  "categoria": "tempero",
+  "funcoes": [
+   "sabor"
+  ],
+  "sabores": [
+   "doce"
+  ]
+ },
+ "sesame oil": {
+  "categoria": "gordura",
+  "funcoes": [
+   "gordura",
+   "sabor"
+  ],
+  "sabores": [
+   "gorduroso"
+  ]
+ },
+ "pasta": {
+  "categoria": "massa",
+  "funcoes": [
+   "estrutura"
+  ],
+  "sabores": []
+ },
+ "brandy": {
+  "categoria": "bebida_alcoolica",
+  "funcoes": [
+   "sabor"
+  ],
+  "sabores": [
+   "doce"
+  ]
+ },
+ "egg noodle": {
+  "categoria": "massa",
+  "funcoes": [
+   "estrutura"
+  ],
+  "sabores": []
+ },
+ "hazelnut": {
+  "categoria": "castanha",
+  "funcoes": [
+   "estrutura",
+   "sabor"
+  ],
+  "sabores": [
+   "doce",
+   "gorduroso"
+  ]
+ },
+ "rum": {
+  "categoria": "bebida_alcoolica",
+  "funcoes": [
+   "sabor"
+  ],
+  "sabores": [
+   "doce"
+  ]
+ },
+ "sage": {
+  "categoria": "erva",
+  "funcoes": [
+   "sabor"
+  ],
+  "sabores": [
+   "herbal"
+  ]
+ },
+ "macaroni": {
+  "categoria": "massa",
+  "funcoes": [
+   "estrutura"
+  ],
+  "sabores": []
+ },
+ "ginger": {
+  "categoria": "tempero",
+  "funcoes": [
+   "sabor"
+  ],
+  "sabores": [
+   "picante"
+  ]
+ },
+ "chili sauce": {
+  "categoria": "molho",
+  "funcoes": [
+   "sabor"
+  ],
+  "sabores": [
+   "picante",
+   "doce"
+  ]
+ },
+ "pepperoni": {
+  "categoria": "proteina",
+  "funcoes": [
+   "sabor"
+  ],
+  "sabores": [
+   "salgado",
+   "picante",
+   "gorduroso"
+  ]
+ },
+ "balsamic vinegar": {
+  "categoria": "acido",
+  "funcoes": [
+   "acidez",
+   "sabor"
+  ],
+  "sabores": [
+   "acido",
+   "doce"
+  ]
+ },
+ "celery salt": {
+  "categoria": "tempero",
+  "funcoes": [
+   "sabor"
+  ],
+  "sabores": [
+   "salgado",
+   "herbal"
+  ]
+ },
+ "coriander": {
+  "categoria": "tempero",
+  "funcoes": [
+   "sabor"
+  ],
+  "sabores": [
+   "herbal"
+  ]
+ },
+ "creme fraiche": {
+  "categoria": "laticinio",
+  "funcoes": [
+   "gordura",
+   "acidez"
+  ],
+  "sabores": [
+   "cremoso",
+   "acido"
+  ]
+ },
+ "crisco": {
+  "categoria": "gordura",
+  "funcoes": [
+   "gordura",
+   "estrutura"
+  ],
+  "sabores": [
+   "gorduroso"
+  ]
+ },
+ "mint": {
+  "categoria": "erva",
+  "funcoes": [
+   "sabor"
+  ],
+  "sabores": [
+   "herbal"
+  ]
+ },
+ "tofu": {
+  "categoria": "proteina",
+  "funcoes": [
+   "estrutura",
+   "umidade"
+  ],
+  "sabores": [
+   "cremoso"
+  ]
+ },
+ "baking powder": {
+  "categoria": "farinha",
+  "funcoes": [
+   "fermento"
+  ],
+  "sabores": []
+ },
+ "oat bran": {
+  "categoria": "graos",
+  "funcoes": [
+   "estrutura"
+  ],
+  "sabores": []
+ },
+ "lettuce": {
+  "categoria": "vegetal",
+  "funcoes": [
+   "estrutura"
+  ],
+  "sabores": [
+   "amargo"
+  ]
+ },
+ "cracker": {
+  "categoria": "farinha",
+  "funcoes": [
+   "estrutura"
+  ],
+  "sabores": [
+   "salgado"
+  ]
+ },
+ "tomato juice": {
+  "categoria": "liquido",
+  "funcoes": [
+   "umidade",
+   "sabor"
+  ],
+  "sabores": [
+   "acido",
+   "umami"
+  ]
+ },
+ "sunflower seed": {
+  "categoria": "castanha",
+  "funcoes": [
+   "estrutura"
+  ],
+  "sabores": [
+   "gorduroso"
+  ]
+ },
+ "fish sauce": {
+  "categoria": "molho",
+  "funcoes": [
+   "sabor"
+  ],
+  "sabores": [
+   "salgado",
+   "umami"
+  ]
+ },
+ "prosciutto": {
+  "categoria": "proteina",
+  "funcoes": [
+   "sabor"
+  ],
+  "sabores": [
+   "salgado",
+   "umami"
+  ]
+ },
+ "wheat germ": {
+  "categoria": "graos",
+  "funcoes": [
+   "estrutura"
+  ],
+  "sabores": []
+ },
+ "cornmeal": {
+  "categoria": "farinha",
+  "funcoes": [
+   "estrutura"
+  ],
+  "sabores": []
+ },
+ "greek yogurt": {
+  "categoria": "laticinio",
+  "funcoes": [
+   "umidade",
+   "acidez"
+  ],
+  "sabores": [
+   "acido",
+   "cremoso"
+  ]
+ },
+ "pinto bean": {
+  "categoria": "leguminosa",
+  "funcoes": [
+   "estrutura"
+  ],
+  "sabores": []
+ },
+ "baking soda": {
+  "categoria": "farinha",
+  "funcoes": [
+   "fermento"
+  ],
+  "sabores": []
+ },
+ "unsalted butter": {
+  "categoria": "laticinio",
+  "funcoes": [
+   "gordura",
+   "sabor",
+   "umidade"
+  ],
+  "sabores": [
+   "cremoso",
+   "gorduroso"
+  ]
+ },
+ "blue cheese": {
+  "categoria": "laticinio",
+  "funcoes": [
+   "sabor"
+  ],
+  "sabores": [
+   "salgado",
+   "umami"
+  ]
+ },
+ "linguine": {
+  "categoria": "massa",
+  "funcoes": [
+   "estrutura"
+  ],
+  "sabores": []
+ },
+ "white vinegar": {
+  "categoria": "acido",
+  "funcoes": [
+   "acidez"
+  ],
+  "sabores": [
+   "acido"
+  ]
+ },
+ "orange": {
+  "categoria": "fruta",
+  "funcoes": [
+   "acidez",
+   "sabor"
+  ],
+  "sabores": [
+   "doce",
+   "acido"
+  ]
+ },
+ "bacon grease": {
+  "categoria": "gordura",
+  "funcoes": [
+   "gordura",
+   "sabor"
+  ],
+  "sabores": [
+   "gorduroso",
+   "salgado"
+  ]
+ },
+ "coffee": {
+  "categoria": "liquido",
+  "funcoes": [
+   "sabor",
+   "cor"
+  ],
+  "sabores": [
+   "amargo"
+  ]
+ },
+ "tortilla": {
+  "categoria": "farinha",
+  "funcoes": [
+   "estrutura"
+  ],
+  "sabores": []
+ },
+ "cauliflower": {
+  "categoria": "vegetal",
+  "funcoes": [
+   "estrutura"
+  ],
+  "sabores": []
+ },
+ "celery seed": {
+  "categoria": "tempero",
+  "funcoes": [
+   "sabor"
+  ],
+  "sabores": [
+   "herbal"
+  ]
+ },
+ "kielbasa": {
+  "categoria": "proteina",
+  "funcoes": [
+   "sabor"
+  ],
+  "sabores": [
+   "salgado",
+   "umami"
+  ]
+ },
+ "onion salt": {
+  "categoria": "tempero",
+  "funcoes": [
+   "sabor"
+  ],
+  "sabores": [
+   "salgado"
+  ]
+ },
+ "italian sausage": {
+  "categoria": "proteina",
+  "funcoes": [
+   "sabor",
+   "gordura"
+  ],
+  "sabores": [
+   "salgado",
+   "umami",
+   "picante"
+  ]
+ },
+ "curry powder": {
+  "categoria": "tempero",
+  "funcoes": [
+   "sabor",
+   "cor"
+  ],
+  "sabores": [
+   "picante",
+   "amargo"
+  ]
+ },
+ "wing": {
+  "categoria": "proteina",
+  "funcoes": [
+   "sabor"
+  ],
+  "sabores": [
+   "umami"
+  ]
+ },
+ "spaghetti sauce": {
+  "categoria": "molho",
+  "funcoes": [
+   "sabor",
+   "umidade"
+  ],
+  "sabores": [
+   "acido",
+   "umami"
+  ]
+ },
+ "steak": {
+  "categoria": "proteina",
+  "funcoes": [
+   "sabor"
+  ],
+  "sabores": [
+   "umami"
+  ]
+ },
+ "cheese": {
+  "categoria": "laticinio",
+  "funcoes": [
+   "sabor",
+   "gordura"
+  ],
+  "sabores": [
+   "salgado",
+   "umami"
+  ]
+ },
+ "red pepper flake": {
+  "categoria": "tempero",
+  "funcoes": [
+   "sabor"
+  ],
+  "sabores": [
+   "picante"
+  ]
+ },
+ "panko": {
+  "categoria": "farinha",
+  "funcoes": [
+   "estrutura"
+  ],
+  "sabores": []
+ },
+ "white sugar": {
+  "categoria": "adocante",
+  "funcoes": [
+   "adocante",
+   "estrutura"
+  ],
+  "sabores": [
+   "doce"
+  ]
+ },
+ "parmesan cheese": {
+  "categoria": "laticinio",
+  "funcoes": [
+   "sabor"
+  ],
+  "sabores": [
+   "salgado",
+   "umami"
+  ]
+ },
+ "rice wine": {
+  "categoria": "bebida_alcoolica",
+  "funcoes": [
+   "sabor",
+   "acidez"
+  ],
+  "sabores": [
+   "doce",
+   "acido"
+  ]
+ },
+ "drumstick": {
+  "categoria": "proteina",
+  "funcoes": [
+   "sabor"
+  ],
+  "sabores": [
+   "umami"
+  ]
+ },
+ "rice vinegar": {
+  "categoria": "acido",
+  "funcoes": [
+   "acidez"
+  ],
+  "sabores": [
+   "acido",
+   "doce"
+  ]
+ },
+ "seasoning salt": {
+  "categoria": "tempero",
+  "funcoes": [
+   "sabor"
+  ],
+  "sabores": [
+   "salgado"
+  ]
+ },
+ "pizza sauce": {
+  "categoria": "molho",
+  "funcoes": [
+   "sabor",
+   "umidade"
+  ],
+  "sabores": [
+   "acido",
+   "umami"
+  ]
+ },
+ "yellow onion": {
+  "categoria": "vegetal",
+  "funcoes": [
+   "sabor"
+  ],
+  "sabores": [
+   "doce",
+   "picante"
+  ]
+ },
+ "corn flake": {
+  "categoria": "graos",
+  "funcoes": [
+   "estrutura"
+  ],
+  "sabores": []
+ },
+ "stevia": {
+  "categoria": "adocante",
+  "funcoes": [
+   "adocante"
+  ],
+  "sabores": [
+   "doce"
+  ]
+ },
+ "apple cider vinegar": {
+  "categoria": "acido",
+  "funcoes": [
+   "acidez"
+  ],
+  "sabores": [
+   "acido"
+  ]
+ },
+ "white": {
+  "categoria": "outro",
+  "funcoes": [
+   "sabor"
+  ],
+  "sabores": []
+ },
+ "cider vinegar": {
+  "categoria": "acido",
+  "funcoes": [
+   "acidez"
+  ],
+  "sabores": [
+   "acido"
+  ]
+ },
+ "quinoa": {
+  "categoria": "graos",
+  "funcoes": [
+   "estrutura"
+  ],
+  "sabores": []
+ },
+ "hamburger": {
+  "categoria": "proteina",
+  "funcoes": [
+   "sabor",
+   "gordura"
+  ],
+  "sabores": [
+   "umami",
+   "gorduroso"
+  ]
+ },
+ "tuna": {
+  "categoria": "proteina",
+  "funcoes": [
+   "sabor"
+  ],
+  "sabores": [
+   "umami"
+  ]
+ },
+ "mango": {
+  "categoria": "fruta",
+  "funcoes": [
+   "sabor"
+  ],
+  "sabores": [
+   "doce"
+  ]
+ },
+ "rotel": {
+  "categoria": "molho",
+  "funcoes": [
+   "sabor",
+   "umidade"
+  ],
+  "sabores": [
+   "acido",
+   "picante"
+  ]
+ },
+ "cucumber": {
+  "categoria": "vegetal",
+  "funcoes": [
+   "umidade"
+  ],
+  "sabores": []
+ },
+ "arugula": {
+  "categoria": "vegetal",
+  "funcoes": [
+   "sabor"
+  ],
+  "sabores": [
+   "amargo",
+   "picante"
+  ]
+ },
+ "lemon extract": {
+  "categoria": "tempero",
+  "funcoes": [
+   "sabor",
+   "acidez"
+  ],
+  "sabores": [
+   "acido"
+  ]
+ },
+ "brown rice": {
+  "categoria": "graos",
+  "funcoes": [
+   "estrutura"
+  ],
+  "sabores": []
+ },
+ "flax seed": {
+  "categoria": "castanha",
+  "funcoes": [
+   "ligante",
+   "estrutura"
+  ],
+  "sabores": [
+   "gorduroso"
+  ]
+ },
+ "nut": {
+  "categoria": "castanha",
+  "funcoes": [
+   "estrutura",
+   "sabor"
+  ],
+  "sabores": [
+   "gorduroso"
+  ]
+ },
+ "cool whip": {
+  "categoria": "laticinio",
+  "funcoes": [
+   "estrutura",
+   "gordura"
+  ],
+  "sabores": [
+   "doce",
+   "cremoso"
+  ]
+ },
+ "soy milk": {
+  "categoria": "liquido",
+  "funcoes": [
+   "umidade"
+  ],
+  "sabores": [
+   "cremoso"
+  ]
+ },
+ "oat": {
+  "categoria": "graos",
+  "funcoes": [
+   "estrutura"
+  ],
+  "sabores": []
+ },
+ "vermouth": {
+  "categoria": "bebida_alcoolica",
+  "funcoes": [
+   "sabor",
+   "acidez"
+  ],
+  "sabores": [
+   "herbal",
+   "doce"
+  ]
+ },
+ "apple sauce": {
+  "categoria": "fruta",
+  "funcoes": [
+   "umidade",
+   "adocante"
+  ],
+  "sabores": [
+   "doce"
+  ]
+ },
+ "yoghurt": {
+  "categoria": "laticinio",
+  "funcoes": [
+   "umidade",
+   "acidez"
+  ],
+  "sabores": [
+   "acido",
+   "cremoso"
+  ]
+ },
+ "snow pea": {
+  "categoria": "leguminosa",
+  "funcoes": [
+   "estrutura"
+  ],
+  "sabores": [
+   "doce"
+  ]
+ },
+ "white wine vinegar": {
+  "categoria": "acido",
+  "funcoes": [
+   "acidez"
+  ],
+  "sabores": [
+   "acido"
+  ]
+ },
+ "sweet onion": {
+  "categoria": "vegetal",
+  "funcoes": [
+   "sabor"
+  ],
+  "sabores": [
+   "doce"
+  ]
+ },
+ "white pepper": {
+  "categoria": "tempero",
+  "funcoes": [
+   "sabor"
+  ],
+  "sabores": [
+   "picante"
+  ]
+ },
+ "pork chop": {
+  "categoria": "proteina",
+  "funcoes": [
+   "sabor"
+  ],
+  "sabores": [
+   "umami"
+  ]
+ },
+ "kosher salt": {
+  "categoria": "tempero",
+  "funcoes": [
+   "sabor"
+  ],
+  "sabores": [
+   "salgado"
+  ]
+ },
+ "goat cheese": {
+  "categoria": "laticinio",
+  "funcoes": [
+   "sabor"
+  ],
+  "sabores": [
+   "acido",
+   "cremoso",
+   "salgado"
+  ]
+ },
+ "pumpkin pie spice": {
+  "categoria": "tempero",
+  "funcoes": [
+   "sabor"
+  ],
+  "sabores": [
+   "doce"
+  ]
+ },
+ "smart balance": {
+  "categoria": "gordura",
+  "funcoes": [
+   "gordura"
+  ],
+  "sabores": [
+   "gorduroso"
+  ]
+ },
+ "feta": {
+  "categoria": "laticinio",
+  "funcoes": [
+   "sabor"
+  ],
+  "sabores": [
+   "salgado",
+   "acido"
+  ]
+ },
+ "pam": {
+  "categoria": "gordura",
+  "funcoes": [
+   "gordura"
+  ],
+  "sabores": [
+   "gorduroso"
+  ]
+ },
+ "chop": {
+  "categoria": "proteina",
+  "funcoes": [
+   "sabor"
+  ],
+  "sabores": [
+   "umami"
+  ]
+ },
+ "pear": {
+  "categoria": "fruta",
+  "funcoes": [
+   "sabor",
+   "umidade"
+  ],
+  "sabores": [
+   "doce"
+  ]
+ },
+ "salami": {
+  "categoria": "proteina",
+  "funcoes": [
+   "sabor"
+  ],
+  "sabores": [
+   "salgado",
+   "umami",
+   "gorduroso"
+  ]
+ },
+ "barley": {
+  "categoria": "graos",
+  "funcoes": [
+   "estrutura"
+  ],
+  "sabores": []
+ },
+ "crushed tomato": {
+  "categoria": "molho",
+  "funcoes": [
+   "umidade",
+   "sabor"
+  ],
+  "sabores": [
+   "acido",
+   "umami"
+  ]
+ },
+ "eggplant": {
+  "categoria": "vegetal",
+  "funcoes": [
+   "estrutura"
+  ],
+  "sabores": [
+   "amargo"
+  ]
+ },
+ "white onion": {
+  "categoria": "vegetal",
+  "funcoes": [
+   "sabor"
+  ],
+  "sabores": [
+   "picante"
+  ]
+ },
+ "apple cider": {
+  "categoria": "liquido",
+  "funcoes": [
+   "umidade",
+   "adocante"
+  ],
+  "sabores": [
+   "doce",
+   "acido"
+  ]
+ },
+ "agave syrup": {
+  "categoria": "adocante",
+  "funcoes": [
+   "adocante",
+   "umidade"
+  ],
+  "sabores": [
+   "doce"
+  ]
+ },
+ "corn oil": {
+  "categoria": "gordura",
+  "funcoes": [
+   "gordura",
+   "umidade"
+  ],
+  "sabores": [
+   "gorduroso"
+  ]
+ },
+ "macadamia nut": {
+  "categoria": "castanha",
+  "funcoes": [
+   "estrutura",
+   "sabor"
+  ],
+  "sabores": [
+   "gorduroso",
+   "doce"
+  ]
+ },
+ "pineapple juice": {
+  "categoria": "liquido",
+  "funcoes": [
+   "umidade",
+   "acidez"
+  ],
+  "sabores": [
+   "doce",
+   "acido"
+  ]
+ },
+ "whipped cream": {
+  "categoria": "laticinio",
+  "funcoes": [
+   "estrutura",
+   "gordura"
+  ],
+  "sabores": [
+   "cremoso",
+   "doce"
+  ]
+ },
+ "cheddar cheese": {
+  "categoria": "laticinio",
+  "funcoes": [
+   "sabor"
+  ],
+  "sabores": [
+   "salgado",
+   "umami"
+  ]
+ },
+ "extract": {
+  "categoria": "tempero",
+  "funcoes": [
+   "sabor"
+  ],
+  "sabores": [
+   "doce"
+  ]
+ },
+ "penne": {
+  "categoria": "massa",
+  "funcoes": [
+   "estrutura"
+  ],
+  "sabores": []
+ },
+ "red bell pepper": {
+  "categoria": "vegetal",
+  "funcoes": [
+   "sabor",
+   "cor"
+  ],
+  "sabores": [
+   "doce"
+  ]
+ },
+ "cider": {
+  "categoria": "liquido",
+  "funcoes": [
+   "umidade",
+   "adocante"
+  ],
+  "sabores": [
+   "doce",
+   "acido"
+  ]
+ },
+ "agave": {
+  "categoria": "adocante",
+  "funcoes": [
+   "adocante",
+   "umidade"
+  ],
+  "sabores": [
+   "doce"
+  ]
+ },
+ "blackberry": {
+  "categoria": "fruta",
+  "funcoes": [
+   "sabor",
+   "cor"
+  ],
+  "sabores": [
+   "doce",
+   "acido"
+  ]
+ },
+ "couscous": {
+  "categoria": "graos",
+  "funcoes": [
+   "estrutura"
+  ],
+  "sabores": []
+ },
+ "veggie broth": {
+  "categoria": "liquido",
+  "funcoes": [
+   "umidade",
+   "sabor"
+  ],
+  "sabores": [
+   "umami",
+   "salgado"
+  ]
+ },
+ "cardamom": {
+  "categoria": "tempero",
+  "funcoes": [
+   "sabor"
+  ],
+  "sabores": [
+   "doce"
+  ]
+ },
+ "cheddar": {
+  "categoria": "laticinio",
+  "funcoes": [
+   "sabor"
+  ],
+  "sabores": [
+   "salgado",
+   "umami"
+  ]
+ },
+ "yellow squash": {
+  "categoria": "vegetal",
+  "funcoes": [
+   "umidade"
+  ],
+  "sabores": []
+ },
+ "oatmeal": {
+  "categoria": "graos",
+  "funcoes": [
+   "estrutura",
+   "espessante"
+  ],
+  "sabores": []
+ },
+ "vanilla yogurt": {
+  "categoria": "laticinio",
+  "funcoes": [
+   "umidade",
+   "acidez",
+   "adocante"
+  ],
+  "sabores": [
+   "doce",
+   "cremoso"
+  ]
+ },
+ "pineapple": {
+  "categoria": "fruta",
+  "funcoes": [
+   "acidez",
+   "umidade"
+  ],
+  "sabores": [
+   "doce",
+   "acido"
+  ]
+ },
+ "wheat bran": {
+  "categoria": "graos",
+  "funcoes": [
+   "estrutura"
+  ],
+  "sabores": []
+ },
+ "bread crumb": {
+  "categoria": "farinha",
+  "funcoes": [
+   "estrutura"
+  ],
+  "sabores": []
+ },
+ "sucanat": {
+  "categoria": "adocante",
+  "funcoes": [
+   "adocante"
+  ],
+  "sabores": [
+   "doce"
+  ]
+ },
+ "poultry seasoning": {
+  "categoria": "tempero",
+  "funcoes": [
+   "sabor"
+  ],
+  "sabores": [
+   "herbal"
+  ]
+ },
+ "ricotta": {
+  "categoria": "laticinio",
+  "funcoes": [
+   "estrutura",
+   "umidade"
+  ],
+  "sabores": [
+   "cremoso"
+  ]
+ },
+ "french bread": {
+  "categoria": "farinha",
+  "funcoes": [
+   "estrutura"
+  ],
+  "sabores": []
+ },
+ "vanilla extract": {
+  "categoria": "tempero",
+  "funcoes": [
+   "sabor"
+  ],
+  "sabores": [
+   "doce"
+  ]
+ },
+ "sea salt": {
+  "categoria": "tempero",
+  "funcoes": [
+   "sabor"
+  ],
+  "sabores": [
+   "salgado"
+  ]
+ },
+ "evoo": {
+  "categoria": "gordura",
+  "funcoes": [
+   "gordura",
+   "sabor"
+  ],
+  "sabores": [
+   "gorduroso"
+  ]
+ },
+ "coconut": {
+  "categoria": "fruta",
+  "funcoes": [
+   "gordura",
+   "sabor"
+  ],
+  "sabores": [
+   "doce",
+   "gorduroso"
+  ]
+ },
+ "bean": {
+  "categoria": "leguminosa",
+  "funcoes": [
+   "estrutura"
+  ],
+  "sabores": []
+ },
+ "chickpea": {
+  "categoria": "leguminosa",
+  "funcoes": [
+   "estrutura"
+  ],
+  "sabores": []
+ },
+ "ricotta cheese": {
+  "categoria": "laticinio",
+  "funcoes": [
+   "estrutura",
+   "umidade"
+  ],
+  "sabores": [
+   "cremoso"
+  ]
+ }
+}

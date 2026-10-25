@@ -1,0 +1,16 @@
+# segredos
+.env
+
+# dados baixados e artefatos gerados
+data/
+*.keras
+*.bin
+
+# ambientes e caches
+.venv/
+.venv-tf/
+__pycache__/
+node_modules/
+
+# pesos do modelo exportado para o front (2 MB) precisam ir no repo
+!frontend/public/models/*.bin
