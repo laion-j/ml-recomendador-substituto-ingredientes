@@ -140,6 +140,8 @@ Leitura honesta: o reranker supera os baselines, mas por margem pequena. Com 213
 
 ## Créditos e licenças
 
+O código deste repositório é MIT (arquivo `LICENSE`). Os dados e modelos abaixo têm licenças próprias.
+
 - Dados: Food.com Recipes and Reviews (Kaggle; confira os termos do dataset).
 - Recipe1MSubs / GISMo (Meta): código sob CC-BY-NC; a licença dos arquivos de dados não é declarada. Uso aqui é pessoal e não comercial, e os dados baixados não vão para o repositório.
 - Modelos: `paraphrase-multilingual-MiniLM-L12-v2` (sentence-transformers) e `opus-mt-tc-big-en-pt` (Helsinki-NLP).
